@@ -1,15 +1,49 @@
 @charset "UTF-8";
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 
 img{
    width: 500px;
    height: 500px;
-   transition: transform 0.5s ease-in-out;
-   transform: translate(0);
+}
+
+.direita{
+    width: 100px;
+    height: 100px;
+}
+
+.esquerda {
+    width: 100px;
+    height: 100px;
+}
+
+.botão{
+    display: flex;
+
+}
+
+.Home{
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(105, 105, 105);
+    margin: 20px;
+    border-radius: 50px;
+    
+}
+
+.Home:hover{
+    background-color: rgb(139, 139, 139);
+    
 }
